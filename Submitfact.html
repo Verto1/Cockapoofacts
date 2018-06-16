@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Submit Cockapoo Fact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        body {
+            background: #729f98;
+        }
+
+        .content {
+            max-width: 500px;
+            margin: auto;
+            background: #283018;
+            padding: 50px;
+            color: #f0eceb;
+        }
+    </style>
+</head>
+<div class="content">
+    <!-- TODO: update nav to be pretty - static bar at home with better theme -->
+    <nav>
+        <a href="newsletter.html">Subscribe to our Cockapoo Newsletter</a> |
+        <a href="index.html">Check out our Cockapoo Facts</a>
+    </nav>
+    <header>
+        <h1>Help spread the love of Cockapoos by building awareness with your own submitted fact!</h1>
+    </header>
+
+    <body>
+        <!-- TODO: Need to post facts to database -->
+        <form action="index.html" method="POST">
+            Fact:
+            <input type="text" name="CockapooFact" id="">
+            <br>
+            <br>
+            <input type="submit" value="Submit Fact">
+        </form>
+    </body>
+</div>
+
+</html>
