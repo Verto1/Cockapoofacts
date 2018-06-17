@@ -1,0 +1,11 @@
+body {
+    background: #729f98;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: #283018;
+    padding: 50px;
+    color: #f0eceb;
+}
